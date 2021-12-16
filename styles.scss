@@ -32,6 +32,7 @@ header{
     background-image: url("images/mobile/image-header.jpg");
     height: 800px;
     overflow-x: hidden;
+    width: 100%;
 }
 li{
     list-style: none;
@@ -89,6 +90,9 @@ a{
 .nav-menu.active{
     left: 60px;
 }
+main{
+    overflow: hidden;
+}
 
 // Welcome-Container
 .welcome-container{
@@ -116,7 +120,7 @@ a{
 // Transform and Stand-Out Sections
 .ts-container{
     display: grid;
-    grid-template-rows: 800px 800px;
+    grid-template-rows: repeat(2, auto);
 }
 .ts-data{
     display: flex;
@@ -134,10 +138,10 @@ a{
     background-size: 800px 400px;
 }
 .ts-text{
-    padding: 60px;
+    padding: 50px;
     text-align: center;
-    width: 500px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
 }
 span{
     display: block;
@@ -173,12 +177,12 @@ span{
 // Graphic Design and Photography
 .gp-container{
     display: grid;
-    grid-template-rows: 800px 800px;
+    grid-template-rows: repeat(2, auto);
 }
 .gp-text{
     text-align: center;
     width: 400px;
-    margin: 32rem auto;
+    margin: 32rem auto 0px auto;
 }
 // Graphic Design
 .graphic-design, .photography{
@@ -384,7 +388,7 @@ footer{
 }
 @media (min-width: 800px) {
     .ts-container{
-        grid-template-rows: 500px 500px;
+        grid-template-rows: repeat(2, auto);
     }
     .ts-data{
         flex-direction: row;
@@ -394,7 +398,6 @@ footer{
         height: 500px;
         background-size: 1000px 500px;
     }
-
     .transform-img{
         order: 1;
     }
@@ -410,11 +413,7 @@ footer{
 }
 @media (min-width: 1050px) {
     .gp-container{
-        grid-template-rows: 0px 0px;
-        grid-template-columns: 50% 50%;
-    }
-    .testimonials{
-        margin-top: 800px;
+        grid-template-columns: repeat(2,50%);
     }
     .testimonials-container{
         flex-direction: row;

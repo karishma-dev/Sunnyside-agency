@@ -33,6 +33,7 @@ header {
   background-image: url("images/mobile/image-header.jpg");
   height: 800px;
   overflow-x: hidden;
+  width: 100%;
 }
 
 li {
@@ -106,6 +107,10 @@ a {
   left: 60px;
 }
 
+main {
+  overflow: hidden;
+}
+
 .welcome-container {
   position: relative;
   top: 150px;
@@ -132,8 +137,8 @@ a {
 .ts-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 800px 800px;
-      grid-template-rows: 800px 800px;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
 }
 
 .ts-data {
@@ -161,10 +166,10 @@ a {
 }
 
 .ts-text {
-  padding: 60px;
+  padding: 50px;
   text-align: center;
-  width: 500px;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
 }
 
 span {
@@ -204,14 +209,14 @@ span {
 .gp-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 800px 800px;
-      grid-template-rows: 800px 800px;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
 }
 
 .gp-text {
   text-align: center;
   width: 400px;
-  margin: 32rem auto;
+  margin: 32rem auto 0px auto;
 }
 
 .graphic-design, .photography {
@@ -462,8 +467,8 @@ footer {
 
 @media (min-width: 800px) {
   .ts-container {
-    -ms-grid-rows: 500px 500px;
-        grid-template-rows: 500px 500px;
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
   }
   .ts-data {
     -webkit-box-orient: horizontal;
@@ -493,13 +498,8 @@ footer {
 
 @media (min-width: 1050px) {
   .gp-container {
-    -ms-grid-rows: 0px 0px;
-        grid-template-rows: 0px 0px;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-  }
-  .testimonials {
-    margin-top: 800px;
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
   }
   .testimonials-container {
     -webkit-box-orient: horizontal;
@@ -536,8 +536,8 @@ footer {
     background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
   }
   .images-container {
-    -ms-grid-columns: (auto);
-    grid-template-columns: repeat(4, auto);
+    -ms-grid-columns: (auto)[4];
+        grid-template-columns: repeat(4, auto);
   }
   .d-img {
     background-size: 475px 300px;
