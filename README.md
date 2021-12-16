@@ -35,8 +35,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://github.com/Krrish105/Sunnyside-agency-landing-lage](https://github.com/Krrish105/Sunnyside-agency-landing-page)
-- Live Site URL: [https://krrish105.github.io/Sunnyside-agency-landing-page/](https://krrish105.github.io/Sunnyside-agency-landing-page/)
+- Solution URL: [https://github.com/Krrish105/Sunnyside-agency](https://github.com/Krrish105/Sunnyside-agency)
+- Live Site URL: [https://krrish105.github.io/Sunnyside-agency/](https://krrish105.github.io/Sunnyside-agency/)
 
 ## My process
 
