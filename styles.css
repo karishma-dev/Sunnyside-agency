@@ -224,7 +224,7 @@ span {
   min-width: 365px;
 }
 
-.graphic-design section {
+.graphic-design div {
   color: var(--dark-desaturated-cyan);
 }
 
@@ -232,7 +232,7 @@ span {
   background-image: url("images/mobile/image-photography.jpg");
 }
 
-.photography section {
+.photography div {
   color: var(--dark-blue);
 }
 
@@ -537,7 +537,7 @@ footer {
   }
   .images-container {
     -ms-grid-columns: (auto);
-     grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, auto);
   }
   .d-img {
     background-size: 475px 300px;
