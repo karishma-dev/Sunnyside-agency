@@ -35,8 +35,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://github.com/Krrish105/Sunnyside-agency](https://github.com/Krrish105/Sunnyside-agency)
-- Live Site URL: [https://krrish105.github.io/Sunnyside-agency/](https://krrish105.github.io/Sunnyside-agency/)
+- Solution URL: [https://github.com/karishma-dev/Sunnyside-agency](https://github.com/karishma-dev/Sunnyside-agency)
+- Live Site URL: [https://karishma-dev.github.io/Sunnyside-agency/](https://karishma-dev.github.io/Sunnyside-agency/)
 
 ## My process
 
@@ -51,6 +51,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- Frontend Mentor - [Krrish105](https://www.frontendmentor.io/profile/Krrish105)
+- Frontend Mentor - [karishma-dev](https://www.frontendmentor.io/profile/karishma-dev)
 - Twitter - [_karishma10](https://twitter.com/_karishma10)
-- Codepen - [Krrish105](https://codepen.io/krrish105)
+- Codepen - [karishma-dev](https://codepen.io/karishma-dev)
